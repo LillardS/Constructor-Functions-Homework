@@ -20,7 +20,7 @@ var Car = function(maxSpeed, driver){
         console.log(speed * time);
     };
     this.logDriver = function(){
-        console.log("driver name is " + thisi.driver);
+        console.log("driver name is " + this.driver);
     };
 };
 
